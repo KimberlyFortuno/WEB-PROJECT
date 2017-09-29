@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>ANIMAL TERMINAL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  </div>
+</nav>
+
+
+<div class="w3-content" style="max-width:1500px">
+
+
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Animal Terminal</b></h1>
+  <p><b>Kimberly Fortuno</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Welcome!</button></p>
+</header>
+</div>
+
+
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/150720162810-06-jfk-animal-terminal-super-169.jpg" style="width:100%">
+    <img src="https://static01.nyt.com/images/2017/08/27/nyregion/27PETCITY2-web/27PETCITY2-superJumbo.jpg" style="width:100%">
+    <img src="https://static1.squarespace.com/static/52faa224e4b05c17d93e1b45/t/55bfc494e4b074d95164783f/1438631068047/" style="width:100%">
+    <img src="http://flyblue.digimix.co/app/uploads/BitsWooftop.jpg" style="width:100%">
+    <img src="http://angloberry.com/wp-content/uploads/2015/01/John-F-Kennedy-Airport-in-New-York-the-worlds-first-airport-terminal-for-animals-dog-in-the-airplane.jpg" style="width:100%">
+    <img src="https://qph.ec.quoracdn.net/main-qimg-41b5284267030106fa96e1690b5eeba6-c" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="http://cdn.srq-airport.com/sites/default/master/files/styles/slideshow_xs/public/IMG_0477.jpg?itok=CofDzJc3&timestamp=1473967964" style="width:100%">
+    <img src="http://i.huffpost.com/gen/1753421/original.jpg" style="width:100%">
+    <img src="http://www.dogjaunt.com/files/2011/08/MIA-Terminal-E-Relief-Area.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/736x/aa/1a/03/aa1a038109c04ffddb4d47fb092a3e20--doggie-pool-dog-pools.jpg" style="width:100%">
+    <img src="http://res.cloudinary.com/sagacity/image/upload/c_crop,h_643,w_960,x_0,y_464/c_scale,w_1080/v1396557021/Chloe_mllflt.jpg" style="width:100%">
+    <img src="https://static1.squarespace.com/static/582eef516a496375f0362a12/582ef6de3e00beacb4432b9a/5853695bd2b8575aabc21916/1481861470996/pink+dog+pool+in+deck.jpg?format=500w" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://minikittourbeauty.files.wordpress.com/2012/07/pettravel.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/736x/49/63/9e/49639eef8537bd84949b1f18ae8e0af9--flying-dog-funny-dogs.jpg" style="width:100%">
+    <img src="http://www.zeppee.com.au/wp-content/uploads/2016/05/c-travel-dog-airplane_49625_600x450.jpg" style="width:100%">
+    <img src="http://webcachorros.com.br/wp-content/uploads/2017/03/22.jpg" style="width:100%">
+    <img src="http://www.residencetraveller.com/wp-content/uploads/2014/12/Travelling-with-animals.jpg" style="width:100%">
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/11/travelhacks3.jpg" style="width:100%">
+  </div>
+</div>
+
+
+</div>
+
+
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Find us!<a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+ 
+<script>
+
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
